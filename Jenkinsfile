@@ -1,6 +1,6 @@
 pipeline {  
     environment {
-      registry = "osanamgcj/mobead_image_build"
+      registry = "rafael/mobead_image_build"
       registryCredential = 'dockerhub'
       dockerImage = ''
     }
